@@ -12,10 +12,10 @@ Created on Mon Nov  4 10:28:36 2019
 @author: BI
 """
 
-server = '52.170.44.37' 
-database = 'BIGeography' 
-username = 'PointerCol01' 
-password = 'PointerCol01' 
+server = '' 
+database = 
+username = 
+password = 
 
 cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = cnxn.cursor()
