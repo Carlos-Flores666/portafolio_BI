@@ -13,9 +13,9 @@ import cv2
 import psycopg2
 
 conn = psycopg2.connect(host= "localhost",
-                        database="ocr_soc_min", 
-                        user="postgres", 
-                        password="postgresql")
+                        database="", 
+                        user="", 
+                        password="")
 cursor1 = conn.cursor()
 
 palabras = input('Escriba las palabras que desea buscar (máximo 2 separadas por un espacio): ')
