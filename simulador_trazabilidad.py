@@ -85,10 +85,10 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 
-conn = psycopg2.connect(host= "localhost",
-                        database="base_ficticia", 
-                        user="postgres", 
-                        password="postgresql")
+conn = psycopg2.connect(host= "",
+                        database="", 
+                        user="", 
+                        password="")
 conn.autocommit = True
 cursor1 = conn.cursor()
 
